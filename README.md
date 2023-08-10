@@ -1,9 +1,10 @@
 ﻿# vCenter Connecter
 
 PowerShell Script which helps to connect vCenter servers via PowerCLI.
-You can connect mulitple servers through the console, every connection will open in a new window.
-You only need to type your password, the server and usernames are stored in a .json file,
-calles 'environments.json', which should be kept in the same folder as the script itself.
+The script generates a TUI (Text-based user interface) in runtime, on a .json.
+ELM (Enhanced Linked Mode) is supported, to define such environments list every vCenter server for the "Servers" key's value. (as you can see in the example under "Env2") 
+You only need to type your password, the servers and usernames are stored in a .json file,
+called 'environments.json', which should be kept in the same folder as the script itself.
 Passwords are not stored! Credentials are handled with the native credential manager of windows.
 
 ## Screenshot:
