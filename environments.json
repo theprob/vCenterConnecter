@@ -1,0 +1,12 @@
+[
+	{
+		"Environment":		"Env1",
+		"UserName":			"admin1",
+		"Servers":			["vc11.something.home"]
+	},
+	{
+		"Environment":		"Env2",
+		"UserName":			"admin2@something.local",
+		"Servers":			["vc21.something.local", "vc22.something.local"]
+	}
+]
